@@ -3,6 +3,7 @@ from tkinter import *
 from tkinter import messagebox
 import base64
 
+"""Шифр цезаря с интерфейсом"""
 
 out = t.Entry()
 out.grid()
@@ -59,4 +60,5 @@ root.mainloop()
 #             itog1 +=alfavit_RU1[new_place]
 #         else:
 #             itog1+=1
+
 #     print(itog1.lower())
