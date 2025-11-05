@@ -1,6 +1,7 @@
 import tkinter as tk
 import random
 
+"""Бегающая кнопка"""
 
 def move_button(event):
     width = root.winfo_width()
@@ -21,5 +22,6 @@ root['background'] = '#AD66D5'
 bt = tk.Button(root, text='Push me if you can)', bg='#48036F', fg='white')
 bt.place(x=150, y=150)
 bt.bind('<Enter>', move_button)
+
 
 root.mainloop()
