@@ -2,6 +2,7 @@ import tkinter as tk
 from tkinter import filedialog as fd
 import ctypes
 
+"""Программа для смены фона рабочего стола"""
 
 def changeOnHover(button, colorOnHover, colorOnLeave):
     button.bind("<Enter>", func=lambda e: button.config(
@@ -27,4 +28,5 @@ btn.place(x= 90, y=60)
 changeOnHover(btn,  "pink", "darkred")
 
 root.mainloop()
+
 
